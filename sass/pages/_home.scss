@@ -1,0 +1,221 @@
+.main{
+    width: 100%;
+    padding-top: 55px;
+    .padding{
+        padding-left: 143px;
+    }
+    &__bg{
+        height: 747px;
+        background-image: url('/assets/img/dekstop/Bg_header.png');
+        background-size: 100% 100%;
+    }
+    &__logo{
+        width: 480px;
+        height: 430
+    }
+}
+.taaruf{
+    height: 798px;
+    position: relative;
+    
+    &__fitur{
+        margin: 0 auto;
+        width: 572px;
+    }
+    &__logo{
+        box-shadow: -5px 5px 12px 3px rgba(83, 83, 83, 0.07);
+    }
+    &__pencarian{
+
+        &--1{
+            height: 600px;
+            padding-top: 87px;
+        }
+        &--2{
+            margin-top: 183px;
+            padding-left: 135px;
+        }
+        &--01{
+            padding-left: 85px;
+        }
+        &--03{
+            width: 740px;
+            height: 469;
+        }
+    }
+}
+.matching{
+    height: 798px;
+  
+    &__figure1{
+        padding: 143px;
+    }
+    &__figure2{
+        background-color: red;
+        height: 600px;
+    }
+    
+}
+.chat{
+    height: 798px;
+
+    &__taaruf1{
+        background-color: red;
+        height: 600px;
+    }
+    &__taaruf2{
+        margin-top: 183px;
+    }
+}
+.nadzor{
+    height: 500px;
+
+    &__taaruf1{
+        padding: 143px;
+    }
+    &__taaruf2{
+        height: 400px;
+        width: 415px;
+        .popup__img{
+            width: 100%;
+        }
+    }
+}
+.maps{
+    width: 100%;
+    height: 500px;
+    background-color: #3d364a;
+
+    &__member1{
+        padding-left: 77px;
+        margin-top: 122px;
+    }
+    &__member2{
+        margin-top: 15rem;
+        margin-left: -16.10rem;
+
+        &__coverage{
+            position: relative
+            &__location{
+                position: absolute;
+                width: 100%;
+                height: 318px;
+
+            }
+        }
+
+    }
+}
+.gallery{
+    height: 879px;
+    background-color: red;
+
+    &__mawaddah{
+        width: 503px;
+        margin: 0 auto;
+    }
+    &__mawaddah1{
+        padding: 0px 191px 0px 191px;
+    }    
+}
+.partner{
+    width: 100%;
+    height: 915px;
+
+    &__mawaddah{
+        width: 570px;
+        margin: 0 auto;
+    }
+}
+.footer{
+    width: 100%;
+    height: 633px;
+    background-color: #3d364a;
+
+    &__mawaddah{
+        padding-top: 122px;
+        padding-left: 86px;
+        display: flex;
+    }
+    &__first{
+        height: 287px;
+        width: 391px;
+        margin-right: 90px;       
+    }
+    &__second{
+        height: 287px;
+        width: 183px;
+        margin-right: 75px;
+    }
+    &__third{
+        height: 287px;
+        width: 183px;
+        margin-right: 77px;
+    }
+    &__fourth{
+        height: 287px;
+        width: 296px;
+    }
+    &__taaruf{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding-top: 13rem;
+        padding-right: 3rem;
+
+        &--01{
+            padding-left: 86px;
+        }
+        &--03{
+            width: 348px;
+            height: 34px;
+            opacity: 0.52;
+            color: #ffffff;
+            font-family: Avenir;
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 34px;
+
+        }
+        img.footer__taaruf--02{
+            width: 120px;
+            height: 51px;    
+        }
+        
+    }
+}
+.user-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    margin-left: -90px;
+    width: 31rem;
+    position: relative;
+
+    &__icon{
+        position: absolute;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+       
+        &--1{
+            color: #fff;
+            fill: currentColor;
+        }
+        &--2{
+            color: #fff;
+            fill: currentColor;
+        }
+        &--4{
+            color: #fff;
+            fill: currentColor;
+        }
+        &--4{
+            color: #fff;
+            fill: currentColor;
+        }
+
+    }
+}

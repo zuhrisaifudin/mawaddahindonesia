@@ -1,0 +1,30 @@
+.header{
+    height: 13.3rem;
+    // background-image: linear-gradient(
+    //     to right bottom,
+    //     rgba($color-primary-light,0.5),
+    //     rgba($color-primary-dark,0.7)),
+    // url(../img/hero.jpg);
+    background-size: cover;
+    position: relative;
+    background-position: top;
+    // clip-path: polygon(0 0,100% 0, 100% 75vh,0 100%);
+
+    &__logo-box{
+        position: absolute;
+        top: 41px;
+        left: 111px;
+    }
+    &__logo{
+        height: 51px;
+        width: 120px;
+    }
+    
+    &__text-box{
+        top:40%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-51%,-50%);
+        text-align: center;
+    }
+}

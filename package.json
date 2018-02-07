@@ -1,0 +1,23 @@
+{
+  "name": "landing_mawaddah",
+  "version": "1.0.0",
+  "description": "Landing Page for Mawaddah Indonesia",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Zuhri Saifudin",
+  "license": "MIT",
+  "devDependencies": {
+    "applicationinsights": "^1.0.1",
+    "body-parser": "^1.18.2",
+    "debug": "^3.1.0",
+    "express": "^4.16.2",
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.14.12"
+  },
+  "dependencies": {},
+  "keywords": [
+    "taaruf"
+  ]
+}

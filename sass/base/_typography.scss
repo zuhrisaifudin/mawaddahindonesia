@@ -1,0 +1,318 @@
+.heading-primary{
+    width: 143px;
+    height: 14px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: Poppins-SemiBold;
+    font-weight: 700;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(48deg, #a17af1 0%, #f45d94 100%);
+    margin:0 auto;
+
+    &--1{
+        font-family: Poppins-SemiBold;
+        text-transform: uppercase;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-image: linear-gradient(217deg, #20d2dc 0%, #70aff9 100%);
+
+
+    }
+    &--4{
+        font-family: Poppins-SemiBold;
+        text-transform: uppercase;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-image: linear-gradient(224deg, #6c64d2 0%, #708bf9 47%, #5da4fb 100%);
+    }
+    &--7{
+        font-family: Poppins-SemiBold;
+        text-transform: uppercase;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-image: linear-gradient(224deg, #d266ee 0%, #cf66ed 12%, #c965ec 31%, #a160e0 100%);
+    }
+    &--10{
+        font-family: Poppins-SemiBold;
+        text-transform: uppercase;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-image: linear-gradient(63deg, #ff5480 0%, #ffb4a7 100%);
+    }
+    &--13{
+        font-family: Poppins-SemiBold;
+        text-transform: uppercase;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-image: linear-gradient(217deg, #20d2dc 0%, #70aff9 100%);
+    }
+    &--16{
+        padding-top: 85px;
+        font-family: Poppins-SemiBold;
+        text-transform: uppercase;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-image: linear-gradient(201deg, #6c64d2 0%, #708bf9 47%, #5da4fb 100%);
+        text-align: center;
+    }
+    &--19{
+        padding-top: 85px;
+        font-family: Poppins-SemiBold;
+        text-transform: uppercase;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-image: linear-gradient(201deg, #6c64d2 0%, #708bf9 47%, #5da4fb 100%);
+        text-align: center;
+        background-image: linear-gradient(200deg, #7496f6 0%, #00b2f4 100%);
+    }
+    &--22{
+        font-family: Poppins-SemiBold;
+        text-transform: uppercase;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-image: linear-gradient(217deg, #20d2dc 0%, #70aff9 100%);
+    }
+    &--24{
+        font-family: Poppins-SemiBold;
+        text-transform: uppercase;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-image: linear-gradient(130deg, #faac65 0%, #ff8c4e 100%);
+    }
+    &--25{
+        font-family: Poppins-SemiBold;
+        text-transform: uppercase;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-image: radial-gradient(circle 30px at 1648.94% 59734.37%, #ff98be 0%, #ff9cba 50%, #ff5f8a 100%);
+    }
+    &--26{
+        font-family: Poppins-SemiBold;
+        text-transform: uppercase;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-image: linear-gradient(32deg, #60cdff 0%, #a2ddf8 100%);
+    }
+    &--29{
+        width: 576px;
+        height: 106px;
+        color: #ffffff;
+        font-family: Avenir;
+        font-size: 35px;
+        font-weight: 300;
+        line-height: 53px;
+    }
+}
+.heading-secondary{
+    margin: 0 auto;
+    width: 257px;
+    height: 53px;
+    color: #403d3d;
+    font-family: Avenir;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 53px;
+
+    &--2{
+        width: 374px;
+        height: 106px;
+        color: #403d3d;
+        font-family: Avenir;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 53px;
+    }
+    &--5{
+        width: 428px;
+        height: 106px;
+        color: #403d3d;
+        font-family: Avenir;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 53px;
+    }
+    &--8{
+        width: 533px;
+        height: 106px;
+        color: #403d3d;
+        font-family: Avenir;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 53px;
+    }
+    &--11{
+        width: 486px;
+        height: 106px;
+        color: #403d3d;
+        font-family: Avenir;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 53px;
+    }
+    &--14{
+        width: 425px;
+        height: 106px;
+        color: #ffffff;
+        font-family: Avenir;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 53px;
+    }
+    &--17{
+        width: 536px;
+        height: 53px;
+        color: #403d3d;
+        font-family: Avenir;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 53px;
+        text-align: center;
+    }
+    &--20{
+        color: #403d3d;
+        font-family: Avenir;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 53px;
+        text-align: center;
+    }
+    &--27{
+        padding-top: 28px;
+        width: 296px;
+        height: 120px;
+        opacity: 0.85;
+        color: #ffffff;
+        font-family: Avenir;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 30px;
+
+        span.default_title{
+            opacity: 0.85;
+            color: #ffffff;
+            font-family: Avenir;
+            font-weight: 300;
+            font-size: 18px;
+        }
+    }
+    &--30{
+        width: 495px;
+        height: 68px;
+        opacity: 0.75;
+        color: #ffffff;
+        font-family: Avenir;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 34px;
+    }
+    span.btn--padding {
+        position: absolute;
+        margin-left: -35px;
+    }
+}
+.heading-tertiary{
+    text-align: center;
+    width: 572px;
+    height: 68px;
+    opacity: 0.85;
+    color: #7e8288;
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 34px;
+
+    &--3{
+        width: 462px;
+        height: 102px;
+        opacity: 0.85;
+        color: #7e8288;
+        font-family: Avenir;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 34px;
+    }
+    &--6{
+        width: 462px;
+        height: 102px;
+        opacity: 0.85;
+        color: #7e8288;
+        font-family: Avenir;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 34px;
+    }
+    &--9{
+        width: 462px;
+        height: 102px;
+        opacity: 0.85;
+        color: #7e8288;
+        font-family: Avenir;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 34px;
+    }
+    &--12{
+        width: 462px;
+        height: 68px;
+        opacity: 0.85;
+        color: #7e8288;
+        font-family: Avenir;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 34px;
+    }
+    &--15{
+        width: 478px;
+        height: 102px;
+        opacity: 0.43;
+        color: #ffffff;
+        font-family: Avenir;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 34px;
+    }
+    &--18{
+        width: 503px;
+        height: 68px;
+        opacity: 0.85;
+        color: #7e8288;
+        font-family: Avenir;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 34px;
+        text-align: center;
+    }
+    &--21{
+        opacity: 0.85;
+        color: #7e8288;
+        font-family: Avenir;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 34px;
+        text-align: center;
+
+    }
+    &--23{
+        padding-top: 34px;
+        width: 391px;
+        height: 102px;
+        opacity: 0.85;
+        color: #ffffff;
+        font-family: Avenir;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 34px;
+    }
+    &--28{
+        width: 296px;
+        padding-top: 63px;
+        height: 30px;
+        opacity: 0.85;
+        color: #ffffff;
+        font-family: Avenir;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 30px;
+    }
+}

@@ -1,0 +1,46 @@
+.ul-mawadaah__list{
+    position: relative;
+    padding-top: 25px;
+    width: 183px;
+    height: 250px;
+    opacity: 0.85;
+    color: #ffffff;
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 50px;
+}
+.ul-mawadaah__item{
+    list-style: none;
+}
+.ul-mawadaah__link{
+    color: $color-white;
+    text-decoration: none;
+
+    &--01{
+        color: #f8e71c;
+    }
+}
+
+.new{
+    position: absolute;
+    margin-top: -36px;
+    margin-left: 11rem;
+    width: 50px;
+    height: 22px;
+    border-radius: 11px 0;
+    background-color: #ff428c;
+
+    &__01{
+        width: 32px;
+        height: 18px;
+        color: #ffffff;
+        font-family: Avenir;
+        font-size: 13px;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin-top: -13px;
+        margin-left: 7px;
+
+    }
+}

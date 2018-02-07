@@ -1,0 +1,32 @@
+.navigation{
+    display: flex;
+
+    &__list{
+        display: inline-flex;
+        margin-left: 396px;
+        margin-top: 5px;
+    }
+    &__item{
+        padding: 31px;
+        list-style: none;
+        font-size: 18px;
+
+    }
+    &__link{
+        text-decoration: none;
+        font-family:  Poppins-light;
+        color: $color-white;
+        opacity: 0.8;
+
+        &--active{
+            color: $color-white;
+            opacity: 1;
+        }
+
+        &:hover{
+        color: $color-white;
+        opacity: 2;
+        }
+    }
+    
+}
