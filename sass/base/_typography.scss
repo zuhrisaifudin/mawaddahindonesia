@@ -10,6 +10,8 @@
     background-image: linear-gradient(48deg, #a17af1 0%, #f45d94 100%);
     margin:0 auto;
 
+   
+
     &--1{
         font-family: Poppins-SemiBold;
         text-transform: uppercase;
@@ -303,6 +305,9 @@
         font-size: 18px;
         font-weight: 300;
         line-height: 34px;
+        @include respond(desktop){
+            width: 35rem;
+        }
     }
     &--28{
         width: 296px;

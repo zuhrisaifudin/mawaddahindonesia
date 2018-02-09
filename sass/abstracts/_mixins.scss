@@ -5,3 +5,23 @@
         clear: both;
     }
 }
+
+// Media Query manager
+
+/* Choose your breakpoint to indicate your device
+- Phone
+- Tablet
+- Desktop
+*/
+
+@mixin respond($breakpoint){
+  @if $breakpoint == phone{
+      @media (max-width:20em){@content};
+  }
+  @if $breakpoint == tablet{
+      @media (max-width:37.5em){@content};
+  }
+  @if $breakpoint == desktop{
+    @media (max-width:80em){@content};
+  }
+}

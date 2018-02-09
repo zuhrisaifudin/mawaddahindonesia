@@ -2,14 +2,16 @@
 @import "abstracts/mixins";
 @import "abstracts/variables";
 
+
 @import "base/animation";
 @import "base/base";
 @import "base/typography";
 @import "base/utilities";
+@import "base/fonts";
 
-@import "components/bg-video";
+@import "components/slider";
 @import "components/button";
-@import "components/composition";
+@import "components/scrolljs";
 @import "components/card";
 @import "components/form";
 @import "components/gallery";

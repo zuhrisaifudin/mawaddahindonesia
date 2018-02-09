@@ -1,10 +1,16 @@
 .navigation{
     display: flex;
 
+
     &__list{
         display: inline-flex;
-        margin-left: 396px;
-        margin-top: 5px;
+        margin-left: 39.6rem;
+        margin-top: 0.5rem;
+
+        @include respond(desktop){
+            margin-left: 27rem;
+             margin-top: 0.5rem;
+        }
     }
     &__item{
         padding: 31px;

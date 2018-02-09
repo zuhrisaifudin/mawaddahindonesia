@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie-edge">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/icons.css">
     <link rel="shorcut icon" type="image/png" href="img/favicon.png">
     <title>MAWADDAH INDONESIA || Taaruf wa Walimah Syariah</title>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <link rel="stylesheet" href="/css/owl.carousel.css">
 </head>
 <body>
     <main>
@@ -29,10 +29,10 @@
                             <a href="#" class="navigation__link">Walimah</a>
                         </li>
                         <li class="navigation__item">
-                            <a href="#" class="navigation__link">Testimoni</a>
+                            <a href="#partner" class="navigation__link">Testimoni</a>
                         </li>
                         <li class="navigation__item">
-                            <a href="#" class="navigation__link">Gallery</a>
+                            <a href="#gallery" class="navigation__link">Gallery</a>
                         </li>
                     </ul>
                     <a href="" class="btn btn--signup btn--animated">Sign Up</a>
@@ -48,8 +48,8 @@
                             <a href="" class="btn btn--find btn--animated"><span class="btn--padding">></span> TEMUKAN SEKARANG</a>
                         </div>
                     </div>
-                    <div class="col-1-of-2">
-                        <div class="main__logo">
+                    <div id="#" class="col-1-of-2">
+                        <div id="finding5" class="main__logo" >
                             <img src="assets/img/dekstop/Illustration_1.png" alt="mawaddah Indonesia" class="main__logo">
                         </div>
                     </div>
@@ -68,7 +68,7 @@
             <div class="taaruf__pencarian">
                 <div class="row">
                     <div class="col-1-of-2">
-                        <div class="taaruf__pencarian--1">
+                        <div id="finding" class="taaruf__pencarian--1">
                             <div class="taaruf__pencarian--01">
                                 <img src="assets/img/dekstop/Illustration_2.png" alt="Taaruf Indonesia" class="taaruf__pencarian--03">
                             </div>
@@ -97,7 +97,9 @@
                 </div>
                 <div class="col-1-of-2">
                     <div class="matching__figure2">
-                        ini adalah gambar
+                        <div id="finding2" class="matching__figure3">
+                            <img src="assets/img/dekstop/Illustration_3.png" alt="mawaddah Indonesia" class="matching__figure3--01">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -107,7 +109,9 @@
             <div class="row">
                 <div class="col-1-of-2">
                     <div class="chat__taaruf1">
-                        Gambar disni
+                        <div id="finding3" class="chat__taaruf2">
+                            <img src="assets/img/dekstop/Illustration_4.png" alt="mawaddah Indonesia" class="chat__taaruf2--01">
+                        </div>
                     </div>
                 </div>
                 <div class="col-1-of-2">
@@ -131,7 +135,7 @@
                 </div>
                 <div class="col-1-of-2">
                     <div class="nadzor__taaruf2">
-                        <div class="nadzor__taaruf2--01">
+                        <div id="finding4" class="nadzor__taaruf2--01">
                             <img src="/assets/img/dekstop/nadzor_fiture.png" alt="Tour photo" class="popup__img">
                         </div>
                     </div>
@@ -161,7 +165,7 @@
             </div>
         </section>
         <!-- Gallery -->
-        <div class="gallery">
+        <div id="gallery" class="gallery">
             <div class="gallery__mawaddah">
                 <h1 class="heading-primary--16">GALLERY MAWADDAH</h1>
                 <h2 class="heading-secondary--17">Kegiatan Mawaddah Indonesia</h2>
@@ -182,11 +186,22 @@
             </div> -->
         </div>
         <!-- Testimonial -->
-        <section class="partner">
+        <section id="partner" class="partner">
             <div class="partner__mawaddah">
                 <h1 class="heading-primary--19">Partner & Testimoni</h1>
                 <h2 class="heading-secondary--20">Partner & Testimoni Mawaddah</h2>
                 <p class="heading-tertiary--21">Beberapa partener dan testimoni dari para pengguna Mawaddah Indonesia</p>
+            </div>
+            <div class="partner__taaruf">
+                <img src="assets/img/dekstop/partner-slide.png">
+            </div>
+            <div class="owl-carousel">
+                <div class="owl-carousel__slider style="width:483px"">
+                    <p class="owl-carousel__slider--01">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sapien metus, imperdiet eget porttitor eget, dapibus ut mi. N</p>
+                    <h1 class="owl-carousel__slider--02">Asiyah Nurul Huda</h1>
+                    <h2 class="owl-carousel__slider--03">Karyawati PT. Nusa Indah Permata</h2>
+                    <img src="assets/img/dekstop/logo_partner-one.png" class="owl-carousel__slider--04">
+                </div>
             </div>
         </section>
         <!-- Footer -->
@@ -274,6 +289,10 @@
             </div>
         </section>
     </main>
+    <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script> -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

@@ -1,6 +1,6 @@
 .ul-mawadaah__list{
     position: relative;
-    padding-top: 25px;
+    padding-top: 2.5rem;
     width: 183px;
     height: 250px;
     opacity: 0.85;
@@ -9,6 +9,9 @@
     font-size: 18px;
     font-weight: 300;
     line-height: 50px;
+    @include respond(desktop){
+        
+    }
 }
 .ul-mawadaah__item{
     list-style: none;
