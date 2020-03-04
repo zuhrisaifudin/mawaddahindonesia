@@ -3,7 +3,6 @@
     padding-top: 5.5rem;
     .padding{
         padding-left: 14.3rem;
-
         @include respond(desktop){
             padding-left: 10.3rem;
             padding-right: 10.3rem;
@@ -32,14 +31,21 @@
         box-shadow: -5px 5px 12px 3px rgba(83, 83, 83, 0.07);
     }
     &__pencarian{
-
+        background-image: url(/assets/img/dekstop/Left_bg.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        &--left{
+           
+        }
         &--1{
             height: 600px;
             padding-top: 87px;
+            
         }
         &--2{
             margin-top: 18.3rem;
             padding-left: 19.9rem;
+            
             @include respond(desktop){
                 margin-top: 18.3rem;
                 padding-left: 9.95rem;
@@ -63,7 +69,12 @@
 }
 .matching{
     height: 500px;
-  
+    &__right{
+        background-image: url(/assets/img/dekstop/Right_bg.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
     &__figure1{
         margin-top: 18.3rem;
         padding-left: 14.3rem;
@@ -95,6 +106,13 @@
 .chat{
     height: 500px;
 
+    &__left{
+        background-image: url(/assets/img/dekstop/Left_bg.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+    }
+
     &__taaruf1{
         
     }
@@ -112,10 +130,18 @@
             width: 100%;
         }
     }
+    &__taaruf3{
+        position: relative;
+    }
 }
 .nadzor{
     height: 500px;
-
+    &__right{
+        background-image: url(/assets/img/dekstop/Right_bg.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
     &__taaruf1{
         padding: 14.3rem;
         @include respond(desktop){
@@ -127,6 +153,10 @@
         width: 415px;
         .popup__img{
             width: 100%;
+            @include respond(desktop){
+                width: 100%;
+                margin-left: 8.2rem;
+            }
         }
     }
 }
@@ -157,15 +187,26 @@
     }    
 }
 .gallery{
-    height: 879px;
-    background-color: red;
-
+    width: 100%;
+    height: 165.2rem;
+    padding: 0rem 19.1rem 0 19rem;
+    @include respond(desktop){
+        padding: 0rem 0rem 0 0rem;
+        width: 100%;
+        height: 165.2rem;
+    }
     &__mawaddah{
         width: 503px;
         margin: 0 auto;
     }
     &__mawaddah1{
-        padding: 0px 191px 0px 191px;
+        margin:0 auto;
+        padding: 100px 0 0px 0px; 
+        @include respond(desktop){
+            margin:0 auto;
+            padding: 100px 0 0px 0px; 
+            width: 120rem;
+        }
     }    
 }
 .partner{
@@ -263,27 +304,15 @@
     position: relative;
 
     &__icon{
-        position: absolute;
-        width: 50%;
+        padding-left: 65px;
         display: flex;
         justify-content: space-between;
-       
-        &--1{
-            color: #fff;
-            fill: currentColor;
+        font-size: 29px;
+        width: 257px;
+        height: 23px;
+        color: #fff;
+        @include respond(desktop){
+            padding-left: 78px;
         }
-        &--2{
-            color: #fff;
-            fill: currentColor;
-        }
-        &--4{
-            color: #fff;
-            fill: currentColor;
-        }
-        &--4{
-            color: #fff;
-            fill: currentColor;
-        }
-
     }
 }

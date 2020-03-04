@@ -25,3 +25,59 @@
     @media (max-width:80em){@content};
   }
 }
+
+
+// Mixins for bubble
+
+@mixin before{
+    content: "";
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    opacity: 0;
+    border-radius: 100%;
+    margin-top: -8px;
+    margin-left: -8px;
+    background: #A951E5;
+    -webkit-animation: bubble 2s ease-out infinite;
+    animation: bubble 2s ease-out infinite;
+}
+@mixin after{
+    content: "";
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    opacity: 0;
+    border-radius: 100%;
+    top: -8px;
+    left: -8px;
+    background: #A951E5;
+    -webkit-animation: bubble 2s .4s ease-out infinite;
+    animation: bubble 2s .4s ease-out infinite;
+}
+@mixin bubble-one{
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    opacity: 0;
+    border-radius: 100%;
+    margin-top: -8px;
+    margin-left: -8px;
+    background: #A951E5;
+    -webkit-animation: bubble 2s ease-out infinite;
+    animation: bubble 2s ease-out infinite;
+}
+@mixin bubble-two{
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    opacity: 0;
+    border-radius: 100%;
+    top: -8px;
+    left: -8px;
+    background: #A951E5;
+    -webkit-animation: bubble 2s .4s ease-out infinite;
+    animation: bubble 2s .4s ease-out infinite;
+}

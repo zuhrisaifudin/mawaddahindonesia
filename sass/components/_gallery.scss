@@ -1,0 +1,55 @@
+.gallery__item{
+    max-width:105.9rem ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: space-between;
+    @include respond(desktop){
+    
+    }
+    
+    &--01{
+        width: 689px;
+        height: 357px;
+        margin-right: 22px;
+        margin-bottom: 18px;
+        @include respond(desktop){
+            
+        }
+    }
+    &--02{
+        width: 347px;
+        height: 357px;
+        background-color: red;
+        @include respond(desktop){
+           
+        }
+    }
+    &--03{
+        width: 513px;
+        height: 718px;
+        background-color: black;
+        margin-right: 18px;
+        @include respond(desktop){
+            
+        }
+    }
+    &--04{
+        width: 524px;
+        height: 348px;
+        @include respond(desktop){
+           
+        }
+    }
+    &--05{
+        margin-top: -35rem;
+        width: 524px;
+        height: 348px;
+        @include respond(desktop){
+           
+        }
+    }
+}
+.gallery__size{
+    width: 100%;
+}

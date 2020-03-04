@@ -80,5 +80,12 @@ $(document).ready(function() {
      .setClassToggle('#finding5','fade-in')
      .addTo(controller); 
 
-    // Slider
+    // Gallery scroll
+    var ourScene = new ScrollMagic.Scene({
+      triggerElement:'#gallery__item',
+      duration :400
+  })
+  .setClassToggle('#gallery__item','fade-in')
+  .addTo(controller); 
+    
 });

@@ -48,3 +48,13 @@
     opacity: 1;
     transform: translateX(0)
 }
+#gallery__item{
+    opacity: 0;
+    transform: translateY(70px);
+    transition: all 1s ease-out;
+
+}
+#gallery__item.fade-in{
+    opacity: 1;
+    transform: translateX(0)
+}

@@ -1,0 +1,154 @@
+@include respond(desktop){
+    .-OOYE{
+        position: absolute;
+        display: inline-block;
+        width: 11px;
+        height: 11px;
+        border-radius: 100%;
+        background-color: #af62e4;
+        margin-top: -26.6rem;
+        margin-left: 4rem;
+     }
+     .-OOYE:before{
+        @include before;
+     }
+     .-OOYE:after{
+       @include after;
+     } 
+     // Bubble two
+    .-OOYF{
+        position: absolute;
+        display: inline-block;
+        width: 11px;
+        height: 11px;
+        border-radius: 100%;
+        background-color: #af62e4;
+        margin-top: -13.6rem;
+        margin-left: 12rem;    
+     }
+     .-OOYF:before{
+        @include before;
+     }
+     .-OOYF:after{
+        @include after;
+     }
+    //  Bubble tree
+    .-OOYG{
+        position: absolute;
+        display: inline-block;
+        width: 11px;
+        height: 11px;
+        border-radius: 100%;
+        background-color: #af62e4;
+        margin-top: -8.6rem;
+        margin-left: 18rem;
+     }
+     .-OOYG:before{
+        @include before;
+     }
+     .-OOYG:after{
+        @include after;
+     }
+    // Bubblle four 
+    .-OOYH{
+        position: absolute;
+        display: inline-block;
+        width: 11px;
+        height: 11px;
+        border-radius: 100%;
+        background-color: #af62e4;
+        margin-top: -17rem;
+        margin-left: 23rem;
+     }
+     .-OOYH:before{
+        @include before;
+     }
+     .-OOYH:after{
+        @include after;
+     }
+    // Bubble Five
+    .-OOYI{
+        position: absolute;
+        display: inline-block;
+        width: 11px;
+        height: 11px;
+        border-radius: 100%;
+        background-color: #af62e4;
+        margin-top: -18rem;
+        margin-left: 30rem;
+     }
+     .-OOYI:before{
+        @include before;
+     }
+     .-OOYI:after{
+        @include after;
+     }
+    // Bubble Six
+    .-OOYJ{
+        position: absolute;
+        display: inline-block;
+        width: 7px;
+        height: 7px;
+        border-radius: 100%;
+        background-color: #af62e4;
+        margin-top: -25rem;
+        margin-left: 36rem;
+     }
+     .-OOYJ:before{
+        @include bubble-one;
+     }
+     .-OOYJ:after{
+        @include bubble-two;
+     }
+    // Bubble seven
+    .-OOYK{
+        position: absolute;
+        display: inline-block;
+        width: 7px;
+        height: 7px;
+        border-radius: 100%;
+        background-color: #af62e4;
+        margin-top: -7.2rem;
+        margin-left: 31.1rem;
+     }
+     .-OOYK:before{
+        @include bubble-one;
+     }
+     .-OOYK:after{
+        @include bubble-two;
+     }
+    //  Bubble eight
+    .-OOYL{
+        position: absolute;
+        display: inline-block;
+        width: 6px;
+        height: 6px;
+        border-radius: 100%;
+        background-color: #af62e4;
+        margin-top: -3.2rem;
+        margin-left: 38.4rem;
+     }
+     .-OOYL:before{
+        @include bubble-one;
+     }
+     .-OOYL:after{
+        @include bubble-two;
+     }
+    //  Bubble nine
+    .-OOYM{
+        position: absolute;
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-radius: 100%;
+        background-color: #af62e4;
+        margin-top: -3.2rem;
+        margin-left: 38.4rem;
+     }
+     .-OOYM:before{
+        @include bubble-one;
+     }
+     .-OOYM:after{
+        @include bubble-two;
+     }
+}
